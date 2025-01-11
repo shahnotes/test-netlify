@@ -93,7 +93,7 @@ function App() {
               data-netlify="true"
               className="space-y-6 bg-gray-50 p-8 rounded-lg"
             >
-              <input type="hidden" name="form-name" value="contact" />
+              <input type="hidden" name="form-name" value="contact" data-netlify-recaptcha="true" />
               
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-700">
